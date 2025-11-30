@@ -6,14 +6,14 @@
 /*   By: tmeqdad <toqa.meqdad@learner.42.tech>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/30 21:03:57 by tmeqdad           #+#    #+#             */
-/*   Updated: 2025/11/30 21:15:56 by tmeqdad          ###   ########.fr       */
+/*   Updated: 2025/11/30 22:24:06 by tmeqdad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
-	if(!new)
-	return;
+	if (!new)
+		return ;
 	new->next = *lst;
 	*lst = new;
 }

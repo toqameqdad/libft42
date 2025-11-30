@@ -6,7 +6,7 @@
 /*   By: tmeqdad <toqa.meqdad@learner.42.tech>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/30 21:22:57 by tmeqdad           #+#    #+#             */
-/*   Updated: 2025/11/30 21:26:10 by tmeqdad          ###   ########.fr       */
+/*   Updated: 2025/11/30 22:15:08 by tmeqdad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,11 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	t_list	*last;
 
 	if (!lst || !new)
-		return;
+		return ;
 	if (*lst == NULL)
 	{
 		*lst = new;
-		return;
+		return ;
 	}
 	last = *lst;
 	while (last->next)
