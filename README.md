@@ -17,7 +17,7 @@ It reimplements standard C functions and adds utilities for:</p>
 
 <h2>Instructions</h2>
 <p>Compile the library:</p>
-<pre><code>git clone &lt;repo-url&gt;
+<pre><code>git clone &lt;git@github.com:toqameqdad/libft42.git&gt;
 cd libft
 make
 </code></pre>
