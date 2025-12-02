@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-t_list	*ft_lstast(t_list *lst)
+t_list	*ft_lslast(t_list *lst)
 {
 	if (!lst)
 		return (NULL);
