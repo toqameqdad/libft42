@@ -6,7 +6,7 @@
 /*   By: tmeqdad <toqa.meqdad@learner.42.tech>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 19:09:44 by tmeqdad           #+#    #+#             */
-/*   Updated: 2025/11/28 20:38:31 by tmeqdad          ###   ########.fr       */
+/*   Updated: 2025/12/03 12:41:55 by tmeqdad          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 {
 	size_t			i;
 	unsigned char	*p;
-	unsigned char	*ch;
+	unsigned char	ch;
 
 	p = (unsigned char *)s;
 	ch = (unsigned char)c;
